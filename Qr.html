@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>QR Code</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+</head>
+
+<body>
+
+    <h2>Scan this QR</h2>
+    <div id="qrcode"></div>
+
+    <script>
+        new QRCode(document.getElementById("qrcode"), {
+            text: "https://abdul-kadir2008.github.io/QR-Code/",
+            width: 200,
+            height: 200
+        });
+    </script>
+
+</body>
+
+</html>
